@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Define the animation */
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+       background-color: aqua;
+       transform: translateY(0);
+      }
+      40% {
+       background-color: bisque;
+       transform: translateY(-30px);
+      }
+      60% {
+        background-color: black;
+        transform: translateY(-15px);
+      }
+    }
+
+    /* Apply the animation to the element with the class "ball" */
+    .ball {
+      width: 150px;
+      height: 150px;
+      background-color: #3498db;
+      border-radius: 50%;
+      position: relative;
+      animation: bounce 2s infinite;
+      
+    }
+  </style>
+</head>
+<body>
+  <!-- HTML element with the class "ball" -->
+  <div class="ball"></div>
+</body>
+</html>

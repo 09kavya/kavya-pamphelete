@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+  
+    flex-direction: column;
+   
+}
+h1{
+    /* padding: 10%; */
+    margin: 0;
+    
+    
+    /* text-align: center; */
+    /* background-color: blueviolet; */
+    
+}
+div{
+     background-image:url('Sunset-Lake-Renwick-Heron-Rookery-Chris-Cheng-July-2019-7.jpg'); 
+    width:100%;
+    height:100vh;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+
+} 
+.a2{
+    background-image:url('pexels-jeff-ibera-1320755.jpg');
+    width:100%;
+    height:100vh;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine;
+} 
+.a3{
+     background-image:url('red_sky.jpeg'); 
+    width:100%;
+    height:100vh;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(171, 164, 57);
+} 
+.a4{
+     background-image:url('sunset-time-tropical-beach-sea-with-coconut-palm-tree.jpg'); 
+    width:100%;
+    height:100vh;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+background-color: rgb(69, 40, 3);
+}
+.a5{
+     background-image:url('pexels-jeff-ibera-1320755.jpg'); 
+    width:100%;
+    height:100vh;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+}
+  
+
+
